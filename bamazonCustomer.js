@@ -72,6 +72,7 @@ var promptCustomer = function(res){
         })
       }
     }
+    
     // If user inputs an invalid product, envokes "Not a valid selection!" & will rerun the prompt
     if(i==res.length && correct==false){
       console.log("Not a valid selection!");
